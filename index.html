@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Shop</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#home">Coffee Shop</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="#shop">Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section with Slider -->
+  <section id="home" class="home-section">
+    <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#homeCarousel" data-slide-to="1"></li>
+        <li data-target="#homeCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/coffee1.jpg" class="d-block w-100" alt="Welcome to Coffee Shop">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome to Coffee Shop</h5>
+            <p>Experience the best coffee in town.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/coffee2.jpg" class="d-block w-100" alt="Our Specialties">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Our Specialties</h5>
+            <p>Discover our unique coffee blends and recipes.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/coffee3.jpg" class="d-block w-100" alt="Visit Us">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Visit Us</h5>
+            <p>Find the nearest Coffee Shop location.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Pages Section -->
+  <section id="about" class="pages-section py-5 mt-md-4">
+    <div class="container">
+      <h2 class="text-center">About Us</h2>
+      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est quis libero vehicula auctor.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/about1.jpg" class="card-img-top" alt="Our Story">
+            <div class="card-body">
+              <h5 class="card-title">Our Story</h5>
+              <p class="card-text">Learn more about our journey and how we started.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/about3.jpg" class="card-img-top" alt="Our Team">
+            <div class="card-body">
+              <h5 class="card-title">Our Team</h5>
+              <p class="card-text">Meet the people behind the best coffee experience.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/about2.jpg" class="card-img-top" alt="Our Locations">
+            <div class="card-body">
+              <h5 class="card-title">Our Locations</h5>
+              <p class="card-text">Find the nearest Coffee Shop location near you.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="blog-section py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">Blog</h2>
+      <p class="text-center">Stay updated with our latest news and articles.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./img/blog1.jpg" class="card-img-top" alt="Latest Coffee Trends">
+            <div class="card-body">
+              <h5 class="card-title">Latest Coffee Trends</h5>
+              <p class="card-text">Discover the latest trends in the coffee world.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./img/blog3.jpg" class="card-img-top" alt="Health Benefits of Coffee">
+            <div class="card-body">
+              <h5 class="card-title">Health Benefits of Coffee</h5>
+              <p class="card-text">Learn about the various health benefits of drinking coffee.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./img/blog2.jpg" class="card-img-top" alt="Coffee Recipes">
+            <div class="card-body">
+              <h5 class="card-title">Coffee Recipes</h5>
+              <p class="card-text">Try our exclusive coffee recipes at home.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events" class="events-section py-5">
+    <div class="container">
+      <h2 class="text-center">Events</h2>
+      <p class="text-center">Join our upcoming events and coffee workshops.</p>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <img src="./img/event1.jpg" class="card-img-top" alt="Coffee Tasting">
+            <div class="card-body">
+              <h5 class="card-title">Coffee Tasting</h5>
+              <p class="card-text">Join our coffee tasting event and explore new flavors.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="./img/event2.jpg" class="card-img-top" alt="Barista Workshop">
+            <div class="card-body">
+              <h5 class="card-title">Barista Workshop</h5>
+              <p class="card-text">Learn the art of making coffee like a professional barista.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop Section -->
+  <section id="shop" class="shop-section py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">Shop</h2>
+      <p class="text-center">Explore our range of coffee products and accessories.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./img/shop1.jpg" class="card-img-top" alt="Coffee Beans">
+            <div class="card-body">
+              <h5 class="card-title">Coffee Beans</h5>
+              <p class="card-text">Premium quality coffee beans from around the world.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./img/shop2.jpg" class="card-img-top" alt="Coffee Machines">
+            <div class="card-body">
+              <h5 class="card-title">Coffee Machines</h5>
+              <p class="card-text">High-quality coffee machines for the perfect brew.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./img/shop3.jpg" class="card-img-top" alt="Coffee Mugs">
+            <div class="card-body">
+              <h5 class="card-title">Coffee Mugs</h5>
+              <p class="card-text">Stylish coffee mugs for your daily coffee ritual.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact" class="contact-section py-5">
+    <div class="container">
+      <h2 class="text-center">Contact Us</h2>
+      <p class="text-center">Get in touch with us for any queries or feedback.</p>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h5>Contact Information</h5>
+          <p><strong>Address:</strong> 123 Coffee Street, Coffee City, CO</p>
+          <p><strong>Email:</strong> contact@coffeeshop.com</p>
+          <p><strong>Phone:</strong> +1 234 567 890</p>
+        </div>
+      <div class="col-md-3"></div>
+        <div class="col-md-6 text-center">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
